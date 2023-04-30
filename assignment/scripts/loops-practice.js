@@ -28,7 +28,7 @@ for (let i = 3; i < 6; i++) {
 //   - Which part of the example loop do you need to change to do this?
 //---- the iteration
 console.log("count even numbers from 2 to 10 (2, 4, 6, 8, 10):");
-for (let i = 2; i < 10; i += 2) {
+for (let i = 2; i <= 10; i += 2) {
   console.log(i);
 }
 
